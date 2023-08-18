@@ -183,3 +183,21 @@ async function createRandomContent() {
   
   createRandomContent();
   ```
+
+  ## Uploading and hosting images on Hero
+  ```javascript
+
+async function uploadImageAndLogURL() {
+    const base64Image = "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFM..."; // Not a real base64 string, can find one with a quick google search!
+    
+    const response = await hero.uploadImage(base64Image, "ExampleImage");
+  
+    if (response.url) {
+      console.log('Image uploaded successfully:', response.url);
+    } else {
+      console.log('Error uploading image:', response);
+    }
+  }
+  
+  uploadImageAndLogURL();
+  ```

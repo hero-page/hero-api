@@ -1,6 +1,6 @@
 {
     "name": "hero-api",
-    "version": "1.1.9",
+    "version": "1.1.10",
     "type": "module",
     "description": "API for Hero Spaces, Lists & Items (https://hero.page)",
     "main": "dist/index.js",
@@ -16,5 +16,27 @@
         "@babel/preset-env": "^7.22.10"
     },
     "author": "Hero Page (https://hero.page)",
-    "license": "ISC"
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hero-page/hero-api.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hero-page/hero-api/issues"
+    },
+    "homepage": "https://hero.page",
+    "keywords": [
+        "hero",
+        "api",
+        "content",
+        "spaces",
+        "lists",
+        "items"
+    ],
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "contributors": [
+        "Sam Chahine <hello@hero.page>"
+    ]
 }

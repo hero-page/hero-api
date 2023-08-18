@@ -2,7 +2,7 @@
 
 Welcome to the Hero API npm package! This library provides a simple and efficient way to interact with the [Hero Platform](https://hero.page), a free online platform for creating and sharing content including blogs, photos, files, and more.
 
-To try this API online, go to the [Hero API Playground](https://hero.mintlify.app/space/create-a-new-space)
+To try this API online, go to the [Hero API Playground](https://docs.hero.page/space/create-a-new-space)
 
 ## API Key
 To find your API Key: 
